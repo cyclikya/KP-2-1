@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+.first{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f6f2;
+    z-index: 3;
+    p {
+        position: absolute;
+        font-size: 7vw;
+        font-family: 'Black Han Sans', sans-serif;
+        font-weight: bolder;
+        color: #eae6da;
+        text-align: center;
+        z-index: 2;
+        top: 4vw;
+    }
+    .bottle {
+        position: absolute;
+        text-align: center;
+        height: 44vw;
+        top: 1vw;
+        z-index: 3;
+        transition: transform 0.4s .5s;
+    }
+    .bottle :hover{
+        transform: scale(1.1);
+    }
+    .shadow {
+        position: absolute;
+        width: 12%;
+        opacity: 0.8;
+        z-index: 2;
+        top: 43vw;
+    }
+}
+.second {
+    height: 110vh;
+    text-align: center;
+    margin-top: -2vw;
+    letter-spacing: 2.1px;
+    background-color: #f7f6f2;
+    
+    span {
+      color: #000000;
+      text-decoration: none;
+      font-size: 3vw;
+      font-weight: 1000;
+    }
+    
+    .content {
+      display: grid;
+      grid-template-columns: 19% 55% 24%;
+      align-items: center;
+      gap: 1%;
+    }
+    
+   .center-column, .right-column {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0;
+      margin-top: -25vw;
+    }
+    .left-column .product-button {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      z-index: 4;
+      width: 12vw;
+      margin-bottom: -20vw;
+    }
+    .left-column .choose{
+      position: absolute;
+      width: 18vw;
+      z-index: 5;
+      top: 113vh;
+      left: 24vw;
+    }
+    .left-column .product-button img{
+      z-index: 4;
+    }
+  
+    .center-column {
+      padding: 3vw;
+      margin: -8vw 0 0 3vw;
+    }
+    .center-column .icon {
+      width: 5vw;
+      margin: 0.5vw;
+    }
+    .description{
+      height: 15vw;
+    }
+    .center-column .description p{
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.2;
+      font-size: 1.5vw;
+      text-decoration: none;
+      font-weight: 1000;
+    }
+    .center-column .icons{
+      padding: 0.6vw 1vw -4vw 1vw;
+      margin-bottom: 3vw;
+      border-radius: 2vw;
+    }
+    .center-column .plus {
+      width: 1.5vw;
+      padding-bottom: 1vw;
+      margin: 1vw;
+    }
+    .right-column {
+      margin-top: -8vw;
+      height: 110vh;
+    }
+    .right-column .bottle {
+      position: relative;
+      top: 7vw;
+      width: 17vw;
+      z-index: 2;
+    }
+    .right-column .shadow {
+      position: relative;
+      z-index: 1;
+      width: 13vw;
+      right: -0.5vw;
+      top: 4.5vw;
+    }
+  }
+.third{
+    height: 84vh;
+    margin-top: 5vw;
+
+    span{
+        position: absolute;
+        font-size: 11vw;
+        font-family: 'Black Han Sans', sans-serif;
+        font-weight: bolder;
+        color: #d2ccbc;
+        text-align: center;
+        z-index: 1;
+    }
+    #fr {
+        top: 207vh;
+        left: 10vw;
+    }
+    #he {
+        top: 285vh;
+        left: 45vw;
+    }
+    img{
+        position: absolute;
+        height: 110vh;
+        z-index: 2;
+        top: 205vh;
+        left: 31vw;
+        transition: transform 1s .5s;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    p{
+        z-index: 3;
+        width: 33vw;
+        text-align: left;
+        text-decoration: none;
+        font-size: 1.6vw;
+        font-weight: 1000;
+    }
+    .title-1{
+        font-size: 2vw;
+        font-weight: 1000;
+        margin-left: 4.9vw ;
+        margin-top: 8vw;
+        margin-bottom: -1.5vw;
+    }
+    .title-2{
+        font-size: 2vw;
+        font-weight: 1000;
+        margin-left: 4.9vw ;
+        margin-top: 2vw;
+        margin-bottom: -1.5vw;
+    } 
+    .title-3{
+        font-size: 2vw;
+        font-weight: 1000;
+        margin-left: 64vw ;
+        margin-top: -43vw;
+        margin-bottom: -1.5vw;
+    }
+    .title-4{
+        font-size: 2vw;
+        font-weight: 1000;
+        margin-left: 64vw ;
+        margin-top: -0.5vw;
+        margin-bottom: -1.5vw;
+      }
+    .text1{
+      margin-left: 4.9vw ;
+    }
+    .text2{
+      margin-left: 4.9vw ;
+    }
+    .text3{
+      margin-left: 64vw ;
+    }
+    .text4{
+      margin-left: 64vw ;
+    }
+}

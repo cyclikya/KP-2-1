@@ -1,0 +1,101 @@
+.order-form{
+  font-family: Arial, sans-serif;
+  font-weight: 1000;
+    z-index: 7;
+    max-width: 60vw;
+    margin: 1.5vw auto 0 auto;
+    background-color: #eae6da;
+    padding-left: 2vw;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    padding-bottom: 2vw;
+  
+    h2 {
+      text-align: center;
+      font-size: 2vw;
+      margin: 1vw 0 1vw 0;
+      font-family: Arial, sans-serif;
+      font-weight: 1000;
+    }
+    
+    .input-group {
+      margin-bottom: 1vw;
+    }
+    
+    .input-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.3vw;
+      font-family: Arial, sans-serif;
+      font-weight: 1000;
+    }
+    
+    .input-group input {
+      width: 90%;
+      z-index: 8;
+      padding: 0.7vw;
+      border: 0.2vw solid #ccc;
+      border-radius: 1vw;
+      font-size: 1.5vw;
+      margin: 0 auto;
+      color: #333;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    label{
+      font-size: 1.5vw;
+      font-weight: 1000;
+      color: #666;
+      margin: 0;
+      text-align: left;
+    }
+    
+    .error {
+      color: red;
+      font-size: 1.5vw;
+      margin-top: 0.3vw;
+    }
+    
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    button {
+      padding: 0.5vw 1vw;
+      font-size: 1.5vw;
+      border: none;
+      border-radius: 0.5vw;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      font-weight: 1000;
+      margin-top: 1vw;
+    }
+    
+    .cancel-btn {
+      background-color: #898477;
+      font-weight: 1000;
+      font-size: 1.5vw;
+      padding: 0.3vw 1vw;
+      border-radius: 1vw;
+    }
+    
+    .submit-btn {
+      background-color: #000000;
+      font-weight: 1000;
+      font-size: 1.5vw;
+      padding: 0.3vw 1vw;
+      border-radius: 1vw;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+      background-color: #fb8638;
+    }
+    .cancel-btn:hover {
+      background-color: #e74c3c;
+  }
+}
